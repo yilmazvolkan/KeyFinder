@@ -21,6 +21,12 @@ which includes all SCC's and has no cycles inside it. The number of required cra
 
 ## :flashlight: How to compile
 
+Before you go you should increase your stack limit.
+Write on the terminal
+```
+ulimit -s 65536
+
+```
 In a terminal, call commands:
 ```
 >cmake CMakeLists.txt
@@ -53,7 +59,48 @@ inside the piggy bank followed by key types separated by space.
 In a single line print the number of piggy banks he should crack followed
 by which ones he should crack.
 
-## :mushroom:Examples 
+## :mushroom: Examples 
+
+
+<p align="center">
+<a href = "https://github.com/yilmazvolkan/KeyFinder/blob/master"><img 
+<img src="https://github.com/yilmazvolkan/KeyFinder/blob/master/sample1.png" width="150" height="250"></a>
+</p>
+
+• The first piggy bank has 2 keys inside it, key 1 and key 2.
+
+
+• The second piggy bank doesn’t have any keys in it.
+
+
+• The third piggy bank has 2 keys inside it, key 2 and key 5.
+
+
+• The fourth piggy bank doesn’t have any keys in it.
+
+
+• The fifth piggy bank has one key inside it, key 4.
+
+
+
+Mahir can open all piggy banks by cracking the first and the third
+piggy banks. When he cracks the first piggy bank he will have key to
+the second piggy bank(key to the first piggy bank is useless because
+we already cracked it). When he crakcs the third piggy bank he will
+have keys to the second and the fifth piggy bank. He can open the fifth
+piggy bank with the key and get the key to the fourth piggy bank.
+
+
+<p align="center">
+<a href = "https://github.com/yilmazvolkan/KeyFinder/blob/master"><img 
+<img src="https://github.com/yilmazvolkan/KeyFinder/blob/master/sample2.png" width="150" height="250"></a>
+</p>
+
+Explanation
+Every piggy bank contain the key to the next piggy bank. Mahir can
+crack any of them to open all the piggy banks. As stated in the output
+format any answer which satisfies the minimum number to open all
+piggy banks is accepted.
 
 ## LICENCE
 All Solutions licensed under [The MIT Licence](https://github.com/yilmazvolkan/KeyFinder/blob/master/LICENSE).
