@@ -98,6 +98,10 @@ crack any of them to open all the piggy banks. As stated in the output
 format any answer which satisfies the minimum number to open all
 piggy banks is accepted.
 
+
+You can use the [Checker](https://github.com/yilmazvolkan/KeyFinder/blob/master/checker/main.cpp) to see whether all piggy banks are open or not. When you run at the terminal same like KeyFinder. The first input is the input you tried to solve and the second input should be the your output.
+
+
 ## LICENCE
 All Solutions licensed under [The MIT Licence](https://github.com/yilmazvolkan/KeyFinder/blob/master/LICENSE).
 
