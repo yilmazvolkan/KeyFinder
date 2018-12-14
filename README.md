@@ -68,19 +68,10 @@ by which ones he should crack.
 </p>
 
 • The first piggy bank has 2 keys inside it, key 1 and key 2.
-
-
 • The second piggy bank doesn’t have any keys in it.
-
-
 • The third piggy bank has 2 keys inside it, key 2 and key 5.
-
-
 • The fourth piggy bank doesn’t have any keys in it.
-
-
 • The fifth piggy bank has one key inside it, key 4.
-
 
 
 Mahir can open all piggy banks by cracking the first and the third
