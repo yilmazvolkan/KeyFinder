@@ -53,6 +53,7 @@ inside the piggy bank followed by key types separated by space.
 In a single line print the number of piggy banks he should crack followed
 by which ones he should crack.
 
+📘
 
 ## LICENCE
 All Solutions licensed under [The MIT Licence](https://github.com/yilmazvolkan/KeyFinder/blob/master/LICENSE).
