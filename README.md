@@ -67,10 +67,15 @@ by which ones he should crack.
 <img src="https://github.com/yilmazvolkan/KeyFinder/blob/master/sample1.png" width="150" height="250"></a>
 </p>
 
+
 • The first piggy bank has 2 keys inside it, key 1 and key 2.
+
 • The second piggy bank doesn’t have any keys in it.
+
 • The third piggy bank has 2 keys inside it, key 2 and key 5.
+
 • The fourth piggy bank doesn’t have any keys in it.
+
 • The fifth piggy bank has one key inside it, key 4.
 
 
